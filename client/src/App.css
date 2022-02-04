@@ -63,6 +63,7 @@ right: 93px;
 top: 172px;
 background: #F0EDE4;
 border-radius: 16px;
+
 }
  .content{
      position: absolute;
@@ -92,6 +93,7 @@ height: 24px;
 left: calc(50% - 343px/2 - 460.5px);
 top: 474px;
 
+
 font-family: Aktiv Grotesk Corp;
 font-style: normal;
 font-weight: bold;
@@ -105,8 +107,124 @@ color: #999999;
     position: absolute;
 width: 802px;
 height: 37px;
+
 left: 88px;
 top: 506px;
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* color: #777777;*/
+
+}
+.font-mf{
+    position: absolute;
+    width: 343px;
+    height: 24px;
+    left: calc(50% - 343px/2 - 460.5px);
+    top: 1533px;
+    
+    font-family: Aktiv Grotesk Corp;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* Kristal Dark Grey 20 */
+    
+    color: #999999;
+}
+.about-mf{
+    position: absolute;
+    width: 802px;
+    height: 37px;
+    left: 88px;
+    top: 1565px;
+    
+    font-family: Aktiv Grotesk Corp;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    
+    
+    color: #777777;
+}
+
+.pm_cards{
+    position: absolute;
+width: 409px;
+height: 220px;
+left: 88px;
+top: 567px;
+
+
+
+background: #FFFFFF;
+border-radius: 8px;
+    
+}
+.pm{
+    position: absolute;
+width: 51px;
+height: 22px;
+left: 0px;
+top: 0px;
+
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 137%*/
+text-align: right;
+
+
+
+color: #3761C8;
+
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+}  
+
+.advi{
+    position: absolute;
+    width: 620px;
+    height: 367px;
+    left: 88px;
+    top: 3378px;
+    
+    background: #F0EDE4;
+    border-radius: 8px;
+}
+.build{
+    position: absolute;
+    width: 620px;
+    height: 367px;
+    left: 727px;
+    top: 3378px;
+    
+    background: #F0EDE4;
+    border-radius: 8px;
+}
+.bp{
+    position: static;
+width: 524px;
+height: 60px;
+left: 0px;
+top: 32px;
 
 font-family: Aktiv Grotesk Corp;
 font-style: normal;
@@ -116,6 +234,111 @@ line-height: 20px;
 /* or 143% */
 
 
-color: #777777;
+/* KRISTAL BLACK */
 
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
 }
+.ab{
+   
+position: static;
+width: 385px;
+height: 24px;
+left: 0px;
+top: 0px;
+
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* Kristal Blue 80 */
+
+color: #3761C8;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8px 0px;
+}
+.ah{
+    position: static;
+    width: 385px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Aktiv Grotesk Corp;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* Kristal Blue 80 */
+    
+    color: #3761C8;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.bh{
+    position: static;
+    width: 385px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    
+    font-family: Aktiv Grotesk Corp;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    
+    /* Kristal Blue 80 */
+    
+    color: #3761C8;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+.vector{
+   
+/* dollar planet 2 */
+
+
+position: absolute;
+left: 75.49%;
+right: 13.7%;
+top: 4.2%;
+bottom: 91.86%;
+
+background: url(.png);
+}
+
