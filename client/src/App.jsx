@@ -1,6 +1,6 @@
 import react from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import card from './Pcard.jsx'
+import Pcard from './Pcard.jsx'
 
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import "./App.css"
@@ -17,18 +17,28 @@ function App() {
       </form>
       <p className='content'>Your investing experience is elevated with a personalized and wide range of investment strategies suited to your investing style and profile. All made easily accessible, to enable you to achieve your financial goals along with an enhanced and secure portfolio.</p>
        <img  className='vector'src='' alt="vector"/>
-    </div>
-      
-        <div className='cards'>
+    
+       </div>  
+        {/* <div className='cards'>
       
       
        <h6 className='font'>Private Markets</h6>
         <p  className='about'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo natoque consectetur ut duis nisi, pellentesque cras amet lorem. Sem auctor amet, duis cursus pulvinar.</p>
         <a href='#' className='pm'>see all</a>    
-        </div>  
+        </div>   */}
+    <div className='pcards'>
+    <Pcard header='Private Markets' about='orem ipsum dolor sit amet, consectetur adipiscing elit. Commodo natoque consectetur ut duis nisi, pellentesque cras amet lorem. Sem auctor amet, duis cursus pulvinar.'/>
     
-    
-    
+    <Pcard header='Fund Portfolio Baskets'about=' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo natoque consectetur ut duis nisi, pellentesque cras amet lorem. Sem auctor amet, duis cursus pulvinar.'/>
+    <Pcard header='Institutional Funds' about=' Optimised portfolio of funds allocated by our proprietary quantitative algorithm focused on long-term sustainable growth. These ave been selected meticulously using our algorithm in conjunction with Investment Committee views
+     '/>
+     <Pcard header='Mutual Funds' about=''/>
+     <Pcard header='ELONs' about=''/>
+     <Pcard header='Kristal Portfolios' about=''/>
+     <Pcard header='Listed Assets' about=''/>
+     <Pcard header='Thematic Kristals' about=''/> 
+    </div>
+
     {/* <div>
      <h6 className='font-fp'>Fund Portfolio Baskets</h6>
      <p className='about-fp'>

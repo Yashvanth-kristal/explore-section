@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import {BsFillChatSquareTextFill} from 'react-icons/bs'
+import {FiUser} from  "react-icons/fa";
+import {GoSignOut} from "react-icons/go";
 export default function Header() {
   return <div>
        <header>
@@ -22,10 +23,9 @@ export default function Header() {
    
   
    
-   
-    <button><FontAwesomeIcon icon= "coffee"/></button>
-    <button><FontAwesomeIcon icon= "chat"/></button>
-    <button><FontAwesomeIcon icon= "logout"/></button>
+   <button><FiUser/></button>
+    <button><BsFillChatSquareTextFill/></button> 
+    <button><GoSignOut/></button>
     </header>
   </div>;
 }

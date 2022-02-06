@@ -1,5 +1,51 @@
+ .font{
+
+width: 343px;
+height: 24px;
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 24px;
+padding: 2rem;
+ color: #999999;;
+}
+
+
+.about{
+    
+    
+width: 802px;
+height: 37px;
+padding: auto 10px auto 88px;
+
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+}
+.data{
+ display: flex;
+  justify-content: space-between;
+ align-items: center;
+
+  
+    
+    
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+
+} 
 .cards{
-    position: absolute;
-    top: 474px;
-    background-color: red;
+  display: flex;
+ flex-direction: column;
+margin-top: 2rem;
+margin-left: 2rem;  
+}
+.ant-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

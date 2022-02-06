@@ -55,12 +55,11 @@ button:hover{
     color:rgba(0, 136,169, 0.8) ;
 }
 .searchbar{
-    position: absolute;
+    
 width: 1259px;
 height: 254px;
-left: 88px;
-right: 93px;
-top: 172px;
+margin-left: 88px;
+margin-top: 2rem;
 background: #F0EDE4;
 border-radius: 16px;
 
@@ -86,41 +85,7 @@ color: #777777;
     
     margin: 48px 48px auto;
 }
-.font{
-    position: absolute;
-width: 343px;
-height: 24px;
-left: calc(50% - 343px/2 - 460.5px);
-top: 474px;
 
-
-font-family: Aktiv Grotesk Corp;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 24px;
-
-
-color: #999999;
-}
-.about{
-    position: absolute;
-width: 802px;
-height: 37px;
-
-left: 88px;
-top: 506px;
-font-family: Aktiv Grotesk Corp;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-/* or 143% */
-
-
-/* color: #777777;*/
-
-}
 .font-mf{
     position: absolute;
     width: 343px;
@@ -333,12 +298,18 @@ margin: 8px 0px;
 /* dollar planet 2 */
 
 
-position: absolute;
+position: relative;
 left: 75.49%;
 right: 13.7%;
 top: 4.2%;
 bottom: 91.86%;
 
 background: url(.png);
+}
+.pcards{
+  position: relative;    
+    display: flex;
+    flex-direction: column;
+    border-color: black;
 }
 
