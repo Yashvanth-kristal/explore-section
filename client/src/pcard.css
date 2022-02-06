@@ -2,12 +2,13 @@
 
 width: 343px;
 height: 24px;
+margin-left: 1rem;
 font-family: Aktiv Grotesk Corp;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 24px;
-padding: 2rem;
+padding-bottom: 2rem;
  color: #999999;;
 }
 
@@ -18,7 +19,7 @@ padding: 2rem;
 width: 802px;
 height: 37px;
 padding: auto 10px auto 88px;
-
+margin-left: 1rem;
 font-family: Aktiv Grotesk Corp;
 font-style: normal;
 font-weight: normal;
@@ -27,7 +28,7 @@ line-height: 20px;
 }
 .data{
  display: flex;
-  justify-content: space-between;
+  justify-content: inline;
  align-items: center;
 
   
@@ -48,4 +49,8 @@ margin-left: 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.next{
+display: flex;
+justify-content: end;    
 }

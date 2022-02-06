@@ -15,7 +15,7 @@ const suffix = (
 
 const onSearch = value => console.log(value);
 
-function psearch(){
+function Psearch(){
   return (<Space direction="vertical">
     <Search placeholder="input search text" onSearch={onSearch} style={{ width: 200 }} />
     <Search placeholder="input search text" allowClear onSearch={onSearch} style={{ width: 200 }} />
@@ -44,4 +44,4 @@ function psearch(){
   </Space>)
   
 }
-export default psearch;
+export default Psearch;

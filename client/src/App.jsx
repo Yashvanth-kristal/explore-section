@@ -7,14 +7,16 @@ import "./App.css"
 import search from "./Psearch"
 import './pcard.css'
 import Header from './Header.jsx';
+import Psearch from './Psearch';
 function App() {
     return(<div>
    <Header/>
     <div className='searchbar'>
-      <form className='form'>
+       <form className='form'>
           <input type="search" placeholder='What is Kristal |'/>
           <button type='search'>search</button>
-      </form>
+      </form> 
+      {/* <Psearch/> */}
       <p className='content'>Your investing experience is elevated with a personalized and wide range of investment strategies suited to your investing style and profile. All made easily accessible, to enable you to achieve your financial goals along with an enhanced and secure portfolio.</p>
        <img  className='vector'src='' alt="vector"/>
     
@@ -121,7 +123,7 @@ function App() {
     </Card> 
     </div>
      */}
-    <div>
+    <div className='footer'>
       <div className='advi'>
       <h5 className='ah' >Advisory Algo</h5>
       <p className='ap'>Imagine a friend who is available at your behest 24/7. A friend who can crunch billions of data points to create the best portfolio for you, and not get tired. A friend who listens to your feedback and can be with you wherever you go. A trusted friend who guards your portfolio in every market event. Befriend Kristal.AI's Algo. Unbiased. Relentless. Insightful. Personalized.</p>

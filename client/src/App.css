@@ -165,22 +165,24 @@ margin: 0px 16px;
 }  
 
 .advi{
-    position: absolute;
+
     width: 620px;
     height: 367px;
-    left: 88px;
-    top: 3378px;
     
+    margin-top: 56px;
+    margin-left: 88px;
+    margin-bottom: 358px;
     background: #F0EDE4;
     border-radius: 8px;
 }
 .build{
-    position: absolute;
+
     width: 620px;
     height: 367px;
-    left: 727px;
-    top: 3378px;
-    
+    margin-top: 56px;
+    margin-right:auto;
+    margin-left: 20px;
+    margin-bottom: 358px;  
     background: #F0EDE4;
     border-radius: 8px;
 }
@@ -230,6 +232,7 @@ line-height: 24px;
 /* Kristal Blue 80 */
 
 color: #3761C8;
+
 
 
 /* Inside auto layout */
@@ -311,5 +314,11 @@ background: url(.png);
     display: flex;
     flex-direction: column;
     border-color: black;
+}
+.footer{
+    display: flex;
+    justify-content:baseline;
+   align-items: center;
+   flex: 1 0 620px;
 }
 
