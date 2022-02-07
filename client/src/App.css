@@ -314,6 +314,8 @@ background: url(.png);
     display: flex;
     flex-direction: column;
     border-color: black;
+    margin-left: 88px;
+   margin-top: 2rem;
 }
 .footer{
     display: flex;
