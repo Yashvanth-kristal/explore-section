@@ -6,8 +6,8 @@ import {GoSignOut} from "react-icons/go";
 export default function Header() {
   return <div>
        <header>
-    <img className="logo"src=""alt="logo"
-   />
+    <img className="logo"src=""alt="logo"/>
+   <span>KRISTAL</span>
    <nav>
        <ul className="nav_links">
            <li><a href="#">Home</a></li>
