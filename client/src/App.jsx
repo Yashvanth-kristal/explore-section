@@ -1,13 +1,13 @@
 import react from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Pcard from './Pcard.jsx'
+
+import Pcard from './components/Pcard.jsx'
 
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import "./App.css"
 import search from "./Psearch"
 import './pcard.css'
-import Header from './Header.jsx';
-import Psearch from './Psearch';
+import Header from './comoonenets/Header.jsx';
+
 function App() {
     return(<div>
    <Header/>

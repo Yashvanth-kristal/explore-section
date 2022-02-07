@@ -3,10 +3,11 @@ import './App.css'
 import {BsFillChatSquareTextFill} from 'react-icons/bs'
 import {FiUser} from  "react-icons/fi";
 import {GoSignOut} from "react-icons/go";
+import './images/console.log();'
 export default function Header() {
   return <div>
        <header>
-    <img className="logo"src=""alt="logo"/>
+    <img className="logo"src="images/logo.png"alt="logo"/>
    <span>KRISTAL</span>
    <nav>
        <ul className="nav_links">
