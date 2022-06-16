@@ -1,0 +1,83 @@
+.fund{
+
+
+  
+width: 286px;
+height: 144px;
+left: 78px;
+top: 964px;
+margin-left: 10px;
+/* Kristal White */
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+.fund text:nth-child(1){
+position: relative;
+    width: 136px;
+height: 18px;
+display: inline-flex;
+
+left: 15.5px;
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height, or 150% */
+
+
+/* Kristal Dark Grey 20 */
+
+color: #999999;
+
+background: fixed;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 4px 0px;
+}
+.text-2{
+    
+display: flex;
+width: 136px;
+height: 66px;
+left: 16px;
+background: fixed;
+
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 22px;
+/* or 137% */
+margin-left: 15.5px;
+
+
+/* Kristal Dark Grey 80 */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+
+flex-grow: 0;
+margin: 4px 10px;
+}
+.image{
+    
+    float: right;
+width: 100px;
+height: 78px;
+left: 32px;
+top: 3px;
+
+/* Kristal White */
+
+background: #FFFFFF;
+border-radius: 8px;
+}

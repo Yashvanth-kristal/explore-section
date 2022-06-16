@@ -1,33 +1,20 @@
 import React from 'react';
-import { Card, Col, Row } from 'antd';
-
 import './pcard.css'
-
-
+import Licard from './Licard'
+import FundCard from './fundCard';
 function Pcard(props) {
   return <div  className='cards'>
       <h6 className='font'>{props.header}</h6>
       <p className='about'>{props.about}</p>
       <button className='next'>see all</button>
-     <div className="data"style={{ background: '#ECECEC', padding: '30px' }}> 
-    <Row gutter={16}>
-      <Col span={8}>
-        <Card  title="Card title" bordered={false}>
-          Card content
-        </Card>
-      </Col>
-      <Col span={8}>
-        <Card   title="Card title" bordered={false}>
-          Card content
-        </Card>
-      </Col>
-      <Col span={8}>
-        <Card   title="Card title" bordered={false}>
-          Card content
-        </Card>
-      </Col>
-    </Row>
-  </div>
+     {(props.header==="Fund Portfolio Baskets")?<div className='fun'><FundCard status="Basket Size: $500K" header="Institutional Funds Growth Basket" />
+     <FundCard status="Min Size: $50,000" header="Mutual Funds Growth Basket" />
+     </div>:<div className="data">
+       <Licard/>
+        <Licard/>
+        <Licard/>
+          
+  </div>}
    </div>;
 }
 

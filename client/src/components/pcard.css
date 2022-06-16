@@ -1,42 +1,58 @@
  .font{
 
+    
+position:static;
 width: 343px;
 height: 24px;
-margin-left: 1rem;
+left: calc(50% - 343px/2 - 460.5px);
+top: 474px;
+
 font-family: Aktiv Grotesk Corp;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 24px;
-padding-bottom: 2rem;
- color: #999999;;
+/* identical to box height, or 133% */
+
+
+/* Kristal Dark Grey 20 */
+
+color: #999999;
+
+
 }
 
 
 .about{
     
     
-width: 802px;
-height: 37px;
-padding: auto 10px auto 88px;
-margin-left: 1rem;
-font-family: Aktiv Grotesk Corp;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 20px;
-}
+    position: static;
+    width: 802px;
+    height: 37px;
+    left: 88px;
+    top: 506px;
+    
+    font-family: Aktiv Grotesk Corp;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+    
+    color: #777777;
+}    
 .data{
  display: flex;
-  justify-content: inline;
+  justify-content: baseline;
  align-items: center;
-
+ 
   
     
     
     
-    background: #FFFFFF;
-    border-radius: 8px;
+    
+ border-radius: 8px;
 
 } 
 .cards{
@@ -53,4 +69,8 @@ margin-left: 2rem;
 .next{
 display: flex;
 justify-content: end;    
+}
+.fun{
+    display: flex;
+    justify-content: start;
 }

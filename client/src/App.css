@@ -3,10 +3,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:  #F7F5F2;
-}
+    background: #F7F5F2;
+    }
 li,a,button{
-   font-family: "Montserrat",sans-serif;
+   font-family: "Aktiv Grotesk Corp",sans-serif;
    font-weight: 500;
    font-size: 16px;
    color: black;
@@ -20,7 +20,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding: 30px 10%; 
-box-shadow: 5px 0px #CCCCCC;
+border-bottom: 1px solid #CCCCCC;
 
 }
 .logo{
@@ -43,6 +43,9 @@ box-shadow: 5px 0px #CCCCCC;
 .nav_links li a:hover{
     color: #008890;
 }
+.nav_links li a{
+    color: #008890;
+}
 button{
     padding: 9px 25px;
     
@@ -55,11 +58,11 @@ button:hover{
     color:rgba(0, 136,169, 0.8) ;
 }
 .searchbar{
-    
+    position: relative;
 width: 1259px;
 height: 254px;
 margin-left: 88px;
-margin-top: 2rem;
+margin-top: 4rem;
 background: #F0EDE4;
 border-radius: 16px;
 
@@ -76,66 +79,10 @@ font-size: 18px;
 line-height: 24px;
 color: #777777;
 
-
-}
-.form{
-    position: absolute;
-    width: 834px;
-    height: 64px;
-    
-    margin: 48px 48px auto;
+background: transparent;
 }
 
-.font-mf{
-    position: absolute;
-    width: 343px;
-    height: 24px;
-    left: calc(50% - 343px/2 - 460.5px);
-    top: 1533px;
-    
-    font-family: Aktiv Grotesk Corp;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 24px;
-    /* identical to box height, or 133% */
-    
-    
-    /* Kristal Dark Grey 20 */
-    
-    color: #999999;
-}
-.about-mf{
-    position: absolute;
-    width: 802px;
-    height: 37px;
-    left: 88px;
-    top: 1565px;
-    
-    font-family: Aktiv Grotesk Corp;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 20px;
-    /* or 143% */
-    
-    
-    color: #777777;
-}
 
-.pm_cards{
-    position: absolute;
-width: 409px;
-height: 220px;
-left: 88px;
-top: 567px;
-
-
-
-background: #FFFFFF;
-border-radius: 8px;
-    
-}
 .pm{
     position: absolute;
 width: 51px;
@@ -166,25 +113,26 @@ margin: 0px 16px;
 
 .advi{
 
-    width: 620px;
-    height: 367px;
-    
-    margin-top: 56px;
-    margin-left: 88px;
-    margin-bottom: 358px;
-    background: #F0EDE4;
-    border-radius: 8px;
+    position: absolute;
+width: 620px;
+height: 367px;
+left: 88px;
+
+
+background: #F0EDE4;
+border-radius: 8px;
 }
 .build{
 
-    width: 620px;
-    height: 367px;
-    margin-top: 56px;
-    margin-right:auto;
-    margin-left: 20px;
-    margin-bottom: 358px;  
-    background: #F0EDE4;
-    border-radius: 8px;
+    
+position: relative;
+width: 620px;
+height: 367px;
+left: 727px;
+
+
+background: #F0EDE4;
+border-radius: 8px;
 }
 .bp{
     position: static;
@@ -200,7 +148,7 @@ font-size: 14px;
 line-height: 20px;
 /* or 143% */
 
-
+background: transparent;
 /* KRISTAL BLACK */
 
 color: #1F1F1F;
@@ -228,7 +176,7 @@ font-size: 18px;
 line-height: 24px;
 /* identical to box height, or 133% */
 
-
+background: transparent;
 /* Kristal Blue 80 */
 
 color: #3761C8;
@@ -248,7 +196,7 @@ margin: 8px 0px;
     height: 24px;
     left: 0px;
     top: 0px;
-    
+    background: transparent;
     font-family: Aktiv Grotesk Corp;
     font-style: normal;
     font-weight: bold;
@@ -275,7 +223,7 @@ margin: 8px 0px;
     height: 24px;
     left: 0px;
     top: 0px;
-    
+    background: transparent;
     font-family: Aktiv Grotesk Corp;
     font-style: normal;
     font-weight: bold;
@@ -296,12 +244,21 @@ margin: 8px 0px;
     flex-grow: 0;
     margin: 8px 0px;
 }
-.vector{
+.vector-1{
+    position: relative;
+left: 79.33%;
+right: 8.3%;
+top: 2.64%;
+bottom: 93.68%;
+
+background: url(.png);
+}
+.vector-2{
    
 /* dollar planet 2 */
 
 
-position: relative;
+position: absolute;
 left: 75.49%;
 right: 13.7%;
 top: 4.2%;
@@ -319,8 +276,321 @@ background: url(.png);
 }
 .footer{
     display: flex;
-    justify-content:baseline;
+    justify-content:space-between;
+    align-items: center;
    align-items: center;
    flex: 1 0 620px;
+   margin: 56px 93px 958px 88px;
 }
 
+.footer>img{
+    
+position: absolute;
+left: 0%;
+right: 34.68%;
+top: 49.86%;
+bottom: 0%;
+
+background: #F0EDE4;
+border-radius: 8px;
+
+}
+.foot-btn{
+    
+    width: 16px;
+    height: 8px;
+    left: calc(50% - 16px/2 + 5px);
+    top: calc(50% - 8px/2 + 12px);
+    
+    /* Kristal Dark Grey 80 */
+    
+    
+}
+.ap{
+    position: static;
+width: 524px;
+height: 100px;
+left: 0px;
+top: 32px;
+
+font-family: Aktiv Grotesk Corp;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+/* KRISTAL BLACK */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+background: transparent;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
+form>input,button{
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+
+}
+
+
+._0da775bb {
+    font-family: 'Poppins';
+    letter-spacing: 0.3px;
+    font-weight: bold;
+    background-color: #231f20;
+    border-radius: 10px;
+}
+.f6 {
+    font-size: .875rem;
+}
+.ph4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.white {
+    color: #fff;
+}
+.bn {
+    border-style: none;
+    border-width: 0;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+._452c3ec4, button, input, optgroup, select, textarea {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+._452c3ec4, button, input, optgroup, select, textarea {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+._390acbc5 {
+    background: none;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    font-size: 16px;
+    letter-spacing: 0px;
+    border: none;
+    outline: unset;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 0;
+    width: calc(100% - 10px);
+    -webkit-appearance: none;
+}
+.f5 {
+    font-size: 1rem;
+}
+.black {
+    color: #000;
+}
+.relative {
+    position: relative;
+}
+.fw3 {
+    font-weight: 300;
+}
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+._452c3ec4, button, input, optgroup, select, textarea {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+}
+.nowrap {
+    white-space: nowrap;
+}
+._581ebd89 {
+    color: #000;
+}
+.d68c66a8 {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+._581ebd89 {
+    color: #000;
+}
+.d68c66a8 {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bg-transparent {
+    background-color: transparent;
+}
+.relative {
+    position: relative;
+}
+.flex {
+    display: flex;
+}
+
+.b--black-10 {
+    border-color: rgba(0,0,0,.1);
+}
+.bt {
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+._581ebd89 {
+    color: #000;
+}
+.d68c66a8 {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ph3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.ph2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.pv2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#search{
+    
+position: absolute;
+width: 834px;
+height: 56px;
+left: calc(50% - 834px/2 - 167px);
+margin-top: 20px;
+
+/* Kristal White */
+
+background: #FFFFFF;
+box-shadow: 0px 5px 10px rgba(66, 52, 36, 0.03);
+border-radius: 10px;
+}
+._2f299eeb {
+    padding: 5px;
+    width: 710px;
+    background: #f2f2f2;
+}
+.nowrap {
+    white-space: nowrap;
+}
+
+.flex {
+    display: flex;
+}
+._705cdf4f {
+    padding-top: 10px;
+}
+.pr1 {
+    padding-right: .25rem;
+}
+
+.pl3 {
+    padding-left: 1rem;
+}
+.fl, .fr {
+    _display: inline;
+}
+.fl {
+    float: left;
+}
+.db {
+    display: block;
+}
+.foot-2{
+    display:flex ;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: transparent;
+}
+.b-1{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    background-color: transparent;
+}
+.vector-3{
+
+    position: absolute;
+    width: 50.89px;
+    height: 50.89px;
+    left: calc(50% - 50.89px/2 + 538.98px);
+    top: 222.88px;
+    
+    /* Kristal White */
+    
+    background: #FFFFFF;
+    border-radius: 12.7214px;
+    transform: rotate(74.69deg);
+}
+.vector-4{
+    position: absolute;
+    width: 67.7px;
+    height: 67.7px;
+    left: calc(50% - 67.7px/2 + 650.35px);
+    top: 130px;
+    
+    background: linear-gradient(to-left,#FFFFFF 10%, #F7F5F2);
+    border-radius: 15.4171px;
+    transform: rotate(20.76deg);
+}
+.vector-5{
+    position: absolute;
+    width: 16px;
+    height: 4px;
+    left: 1025.9px;
+    top: 200.54px;
+    
+    /* Kristal Dark Grey 80 */
+    
+    background: #1F1F1F;
+    transform: matrix(-0.72, 0.69, 0.69, 0.72, 0, 0);
+}
